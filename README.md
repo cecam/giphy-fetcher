@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# What I'm missing according to requirements and how would I solve it
+
+- Search history:
+  For this point I would use redux to create a global state wich will contain an array that allows me to show the order and what it contained every search.
+
+- A new page for history:
+  This would be easy, I would need to install react router and configure my app routing
+  
+- Image modal:
+  For this, I would create a new component that would recive on props the details of the image, at the end the modal is an element that render over the other elements.
+  As extra note, it would be nice to put it in the function of closing at clicking oustide, I would achieve this by using the hook "useRef" and detecting when the current element is not the one that I'm looking for
+  
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
